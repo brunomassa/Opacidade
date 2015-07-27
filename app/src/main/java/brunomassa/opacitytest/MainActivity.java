@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         relativeLayout=(RelativeLayout)findViewById(R.id.rl);
 
         AlphaAnimation alpha = new AlphaAnimation(0.5F, 0.5F);
-        alpha.setDuration(0); // Poem a animação instantanea
+        alpha.setDuration(0); // Mete a animação instantanea
         alpha.setFillAfter(true); // Mantem a animação depois do fim
 
         relativeLayout.startAnimation(alpha);
